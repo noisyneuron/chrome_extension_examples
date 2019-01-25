@@ -1,0 +1,13 @@
+  {
+    "name": "ugly photos, go away",
+    "version": "1.0",
+    "description": "bill me up, buttercup",
+    "manifest_version": 2,
+    "content_scripts" : [
+      {
+        "matches" :["http://*/*", "https://*/*"],
+        "js" : ["jquery-3.3.1.min.js","myCoolScript.js"],
+        "css" : ["myAwesomeCss.css"]
+      }
+    ]
+  }

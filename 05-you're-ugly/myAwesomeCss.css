@@ -1,0 +1,15 @@
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+.spin {
+    transform-origin: 50% 50%;
+    animation: spin 6000ms linear infinite;
+}
+
+
+body.stop-being-ugly {
+  font-family: "Comic Sans MS", "Comic Sans", cursive !important;
+  font-size: 140%;
+}

@@ -1,0 +1,12 @@
+  {
+    "name": "hello extension world",
+    "version": "1.0",
+    "description": "look at me",
+    "manifest_version": 2,
+    "content_scripts" : [
+      {
+        "matches" :["http://*/*", "https://*/*"],
+        "js" : ["myCoolScript.js"]
+      }
+    ]
+  }
